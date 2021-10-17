@@ -1,7 +1,11 @@
 <?php 
 include('init.php');
+
+$title = "Volunteer";
+
 include('header.php');
 include('nav.php'); 
+include('captcha.php'); 
 ?>
 
 <section class="volunteer">
@@ -27,6 +31,10 @@ include('nav.php');
 			<input type="text" required="true" name="username" id="username" class="volunteer__input volunteer__input_name" aria-required="true">
 			<label for="email" class="volunteer__heading volunteer__heading_email">What is your email address?<span class="volunteer__required">*</span></label>
 			<input type="text" required="true" name="email" id="email" class="volunteer__input volunteer__input_email" aria-required="true">
+			<label for="phone" class="volunteer__heading volunteer__heading_phone">What is your phone number?<span class="volunteer__required">*</span></label>
+			<input type="text" required="true" name="phone" id="phone" class="volunteer__input volunteer__input_phone" aria-required="true">
+			<label for="math" class="volunteer__heading volunteer__heading_math">What is <?php echo $mathInt1 . "+" . $mathInt2; ?>?<span class="volunteer__required">*</span></label>
+			<input type="text" required="true" name="math" id="math" class="volunteer__input volunteer__input_math" aria-required="true">
 			<fieldset class="volunteer__background">
 				<legend class="volunteer__heading volunteer__heading_background" aria-required="true">Have you ever been convicted or plead guilty to a crime? <span class="volunteer__required volunteer__required_background">*</span></legend>
 				<input type="radio" name="background" id="crime-true" class="volunteer__radio volunteer__radio_true">

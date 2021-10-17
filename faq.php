@@ -1,7 +1,10 @@
 <?php 
 include('init.php');
+
+$title = "About";
+
 include('header.php');
-include('nav.php'); 
+include('nav.php');
 ?>
 
 <section class="faq-page">

@@ -1333,7 +1333,7 @@ a {
 .volunteer__heading_program {
   margin-top: 1rem;
 }
-.volunteer__heading_name, .volunteer__heading_email {
+.volunteer__heading_name, .volunteer__heading_email, .volunteer__heading_phone, .volunteer__heading_math {
   display: block;
   margin-bottom: 0.3rem;
 }
@@ -1377,7 +1377,7 @@ a {
   margin: 0 auto;
   width: 19rem;
 }
-.volunteer__input_email {
+.volunteer__input_math {
   margin-bottom: 1.75rem;
 }
 .volunteer__background {

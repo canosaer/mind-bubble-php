@@ -885,7 +885,7 @@ a{
 			margin-top: 1rem;
 		}
 
-		&_name, &_email{
+		&_name, &_email, &_phone, &_math {
 			display: block;
 			margin-bottom: 0.3rem;
 		}
@@ -937,7 +937,7 @@ a{
 		margin: 0 auto;
 		width: 19rem;
 
-		&_email{
+		&_math{
 			margin-bottom: 1.75rem;
 		}
 	}
