@@ -133,35 +133,6 @@ table {
   border-spacing: 0;
 }
 
-/* 
-==============================================
-CONTENT:	Mind Bubble
-AUTHOR:		Eric Canosa
-==============================================
-
-TABLE OF CONTENTS:
-
-0. Initialization
-1. Appearance
-2. Utility
-
-==============================================
-*/
-/* 0. Initialization ========================= */
-/* 1. Appearance ============================= */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-body {
-  background: whitesmoke;
-  font-family: "Lucida Sans", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
 .preloader {
   align-items: center;
   background: whitesmoke;
@@ -177,14 +148,6 @@ a {
 .preloader__icon {
   -webkit-filter: brightness(1.01);
           filter: brightness(1.01);
-}
-
-.display-grid {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-rows: auto;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
 }
 
 .top-row {
@@ -1153,6 +1116,14 @@ a {
   color: #909097;
 }
 
+.faq {
+  color: #4d6dd1;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .faq-page {
   display: -ms-grid;
   display: grid;
@@ -1244,55 +1215,6 @@ a {
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(45deg);
           transform: translateY(-50%) rotate(45deg);
-}
-
-.faq {
-  color: #4d6dd1;
-  position: relative;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-.faq__accordion {
-  font-size: 1rem;
-  position: absolute;
-  top: -3.9rem;
-  left: 3rem;
-  width: 16rem;
-  border: 2px solid black;
-  border-radius: 0.7rem;
-}
-.faq__heading {
-  background: #4d6dd1;
-  color: white;
-  padding: 0.7rem;
-  cursor: pointer;
-  position: relative;
-  border-top-left-radius: 0.6rem;
-  border-top-right-radius: 0.6rem;
-}
-.faq__heading:hover {
-  -webkit-filter: brightness(1.1);
-          filter: brightness(1.1);
-}
-.faq__arrow {
-  position: absolute;
-  border-top: 2px solid white;
-  border-right: 2px solid white;
-  width: 10px;
-  height: 10px;
-  left: 0.55rem;
-  top: 0.9rem;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-.faq__answer {
-  padding: 0.25rem;
-  height: 0;
-  opacity: 0;
-  position: relative;
-  color: black;
-  cursor: text;
 }
 
 .volunteer {
@@ -1442,6 +1364,45 @@ a {
     grid-column: 2/3;
     border-radius: 0.7rem;
   }
+}
+
+/* 
+==============================================
+CONTENT:	Mind Bubble
+AUTHOR:		Eric Canosa
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Initialization
+1. Partials
+2. General
+3. Utility
+
+==============================================
+*/
+/* 0. Initialization ========================= */
+/* 1. Partials =============================== */
+/* 2. General =============================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.display-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: auto;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 
 /* 2. Utility ================================ */
