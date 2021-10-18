@@ -12,7 +12,7 @@ include('captcha.php');
 	<div class="wide-screen-container">
 		<i class="fas fa-hand-holding-heart volunteer__icon"></i>
 		<h1 class="volunteer__heading volunteer__heading_main">Volunteer Sign-Up</h1>
-		<form class="volunteer__form">
+		<form class="volunteer__form" method="POST">
 			<h2 class="volunteer__heading volunteer__heading_program">How would you like to help?<span class="volunteer__required">*</span></h2>
 			<p class="volunteer__tip" aria-required="true">Select at least one program and check all that apply.</p>
 			<fieldset class="volunteer__check-row">
@@ -54,6 +54,6 @@ include('captcha.php');
 		
 <script src="dist/js/nav-fixer.js"></script>
 <script src="dist/js/menu-toggle.js"></script>
-<script src="dist/js/volunteer-menu.js"></script>
+<!-- <script src="dist/js/volunteer-menu.js"></script> -->
 
 <?php include('closing.php'); ?>
