@@ -49,9 +49,10 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     }
 
     error_log($math);
-    error_log($_SESSION["answer"]);
+    error_log($_SESSION["lastAnswer"]);
+    error_log($_SESSION["newAnswer"]);
     if($mathResponse){
-        if ($math != $_SESSION["answer"]) {
+        if ($math != $_SESSION["lastAnswer"]) {
             $message = 'Please check your math';
             $passed = false;
         }
