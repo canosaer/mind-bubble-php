@@ -1,8 +1,8 @@
 <?php 
-include('init.php');
-include('header.php');
-include('preloader.php');
-include('nav.php'); 
+include('inc/init.php');
+include('inc/header.php');
+include('inc/preloader.php');
+include('inc/nav.php'); 
 ?>
 
 <section class="hero">
@@ -132,11 +132,11 @@ include('nav.php');
 	</div>
 </section>
 
-<?php include('footer.php'); ?>
+<?php include('inc/footer.php'); ?>
 
 <script src="dist/js/preloader.js"></script>
 <script src="dist/js/nav-fixer.js"></script>
 <script src="dist/js/menu-toggle.js"></script>
 <script src="dist/js/hero-menu.js"></script>
 
-<?php include('closing.php'); ?>
+<?php include('inc/closing.php'); ?>

@@ -1,11 +1,11 @@
 <?php 
-include('init.php');
+include('inc/init.php');
 
 $title = "Volunteer";
 
-include('header.php');
-include('nav.php'); 
-include('captcha.php'); 
+include('inc/header.php');
+include('inc/nav.php'); 
+include('inc/captcha.php'); 
 ?>
 
 <section class="volunteer">
@@ -50,10 +50,10 @@ include('captcha.php');
 	
 </section>
 
-<?php include('footer.php'); ?>
+<?php include('inc/footer.php'); ?>
 		
 <script src="dist/js/nav-fixer.js"></script>
 <script src="dist/js/menu-toggle.js"></script>
 <!-- <script src="dist/js/volunteer-menu.js"></script> -->
 
-<?php include('closing.php'); ?>
+<?php include('inc/closing.php'); ?>
